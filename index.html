@@ -1,266 +1,242 @@
 <!DOCTYPE HTML>
 <!--
   Solid State by HTML5 UP
-  Customized for DT-Infotech (Premium Purple Theme)
+  Fully customized for DT-Infotech (Premium Purple Theme)
 -->
-<html>
-  <head>
-    <title>DT-Infotech | IT & Cloud Services</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta
-      name="description"
-      content="DT-Infotech provides IT consulting, cloud services, software development, and application support."
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<html lang="en">
+<head>
+  <title>DT-Infotech | IT Consulting & Cloud Services</title>
 
-    <style>
-      :root{
-        /* ===== PURPLE THEME ===== */
-        --accent: #a855f7;   /* purple */
-        --accent2: #6366f1;  /* indigo */
-        --text: rgba(255,255,255,0.95);
-        --muted: rgba(255,255,255,0.75);
-        --card: rgba(255,255,255,0.05);
-        --card2: rgba(255,255,255,0.08);
-        --border: rgba(255,255,255,0.15);
-      }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-      body {
-        background:#0f1115;
-        color: var(--text);
-      }
+  <!-- SEO -->
+  <meta
+    name="description"
+    content="DT-Infotech provides IT consulting, cloud services, software development, and reliable application support for businesses."
+  />
 
-      #page-wrapper { background: transparent; }
+  <!-- Canonical -->
+  <link rel="canonical" href="https://dt-infotech.com/" />
 
-      /* ================= HEADER ================= */
-      #header {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        padding: 0.9rem 0;
-        background: #1f2937; /* dark slate */
-        border-bottom: 2px solid rgba(168,85,247,0.75); /* purple accent */
-        z-index: 1000;
-      }
+  <!-- Open Graph -->
+  <meta property="og:title" content="DT-Infotech | IT Consulting & Cloud Services" />
+  <meta
+    property="og:description"
+    content="IT consulting, cloud services, software development, and application support by DT-Infotech."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dt-infotech.com/" />
 
-      #header h1 {
-        padding: 0 2rem;
-        margin: 0;
-        font-size: 1rem;
-        letter-spacing: .12em;
-        text-transform: uppercase;
-        color: #ffffff;
-        font-weight: 700;
-        line-height: 1.2;
-      }
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-      #header .tagline {
-        display:block;
-        margin-top:.35rem;
-        font-size:.65rem;
-        letter-spacing:.18em;
-        color: rgba(255,255,255,.8);
-      }
+  <!-- Theme -->
+  <style>
+    :root{
+      --accent: #a855f7;
+      --accent2: #6366f1;
+      --text: rgba(255,255,255,0.95);
+      --muted: rgba(255,255,255,0.75);
+      --card: rgba(255,255,255,0.05);
+      --card2: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,0.15);
+    }
 
-      /* Space for fixed header */
-      #banner { padding-top: 6.25rem; }
+    body {
+      background:#0f1115;
+      color: var(--text);
+    }
 
-      /* ================= HERO ================= */
-      #banner {
-        background-image:
-          radial-gradient(900px 500px at 15% 20%, rgba(168,85,247,.30), transparent 60%),
-          radial-gradient(700px 500px at 85% 30%, rgba(99,102,241,.25), transparent 55%),
-          linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
-          url("images/hero.jpg");
-        background-size: cover;
-        background-position: center;
-      }
+    #header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 0.9rem 0;
+      background: #1f2937;
+      border-bottom: 2px solid rgba(168,85,247,0.75);
+      z-index: 1000;
+    }
 
-      #banner .logo {
-        width: 4.25rem;
-        height: 4.25rem;
-        border-radius: 999px;
-        display: grid;
-        place-items: center;
-        background: rgba(255,255,255,.08);
-        border: 1px solid rgba(255,255,255,.14);
-      }
+    #header h1 {
+      padding: 0 2rem;
+      margin: 0;
+      font-size: 1rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
 
-      /* ================= BUTTONS ================= */
-      .button.primary {
-        background: linear-gradient(90deg, var(--accent), var(--accent2));
-        border: none !important;
-        color: #140a1f !important;
-        font-weight: 800;
-      }
+    #header .tagline {
+      display:block;
+      margin-top:.35rem;
+      font-size:.65rem;
+      letter-spacing:.18em;
+      color: rgba(255,255,255,.8);
+    }
 
-      a { color: var(--accent); }
-      a:hover { color: #ffffff; }
+    #banner { padding-top: 6.25rem; }
 
-      /* ================= SERVICES ================= */
-      #services .inner {
-        max-width: 1100px;
-      }
+    #banner {
+      background-image:
+        radial-gradient(900px 500px at 15% 20%, rgba(168,85,247,.30), transparent 60%),
+        radial-gradient(700px 500px at 85% 30%, rgba(99,102,241,.25), transparent 55%),
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+        url("images/hero.jpg");
+      background-size: cover;
+      background-position: center;
+    }
 
-      .svc-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
-        margin-top: 1.5rem;
-      }
+    .button.primary {
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      border: none !important;
+      color: #140a1f !important;
+      font-weight: 800;
+    }
 
-      .svc-card {
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 14px;
-        overflow: hidden;
-        box-shadow: 0 10px 30px rgba(0,0,0,.35);
-        transition: transform .2s ease, background .2s ease, border-color .2s ease;
-      }
+    a { color: var(--accent); }
+    a:hover { color: #ffffff; }
 
-      .svc-card:hover {
-        transform: translateY(-5px);
-        background: var(--card2);
-        border-color: rgba(168,85,247,.45);
-      }
+    .svc-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
 
-      .svc-card img {
-        width:100%;
-        height:170px;
-        object-fit:cover;
-        display:block;
-      }
+    .svc-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: transform .2s ease;
+    }
 
-      .svc-card .pad {
-        padding: 1.25rem;
-      }
+    .svc-card:hover {
+      transform: translateY(-5px);
+      background: var(--card2);
+    }
 
-      .svc-card p {
-        color: var(--muted);
-        margin: 0;
-      }
+    .svc-card img {
+      width:100%;
+      height:170px;
+      object-fit:cover;
+    }
 
-      @media (max-width:980px){
-        .svc-grid { grid-template-columns: 1fr; }
-        .svc-card img { height:150px; }
-      }
+    .svc-card .pad {
+      padding: 1.25rem;
+    }
 
-      /* ================= FOOTER ================= */
-      #footer {
-        background:
-          radial-gradient(900px 600px at 20% 10%, rgba(168,85,247,.14), transparent 55%),
-          radial-gradient(700px 500px at 80% 30%, rgba(99,102,241,.14), transparent 55%);
-      }
-    </style>
-  </head>
+    @media (max-width:980px){
+      .svc-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
 
-  <body class="is-preload">
-    <div id="page-wrapper">
+<body class="is-preload">
+<div id="page-wrapper">
 
-      <!-- HEADER -->
-      <header id="header">
-        <h1>
-          DT-Infotech
-          <span class="tagline">IT Consulting • Cloud • Support</span>
-        </h1>
-      </header>
+  <!-- HEADER -->
+  <header id="header">
+    <h1>
+      DT-Infotech
+      <span class="tagline">IT Consulting • Cloud • Application Support</span>
+    </h1>
+  </header>
 
-      <!-- HERO -->
-      <section id="banner">
-        <div class="inner">
-          <div class="logo"><span class="icon fa-cloud"></span></div>
-          <h2>Modern IT & Cloud Solutions</h2>
-          <p>Reliable IT consulting, cloud engineering, and long-term application support.</p>
-          <p>
-            <a href="#contact" class="button primary">Contact Us</a>
-            <a href="#services" class="button">Our Services</a>
-          </p>
-        </div>
-      </section>
-
-      <!-- SERVICES -->
-      <section id="services" class="wrapper style1">
-        <div class="inner">
-          <h2 class="major">Our Services</h2>
-          <p>Business-focused delivery — clear communication, reliable execution, and long-term support.</p>
-
-          <div class="svc-grid">
-
-            <div class="svc-card">
-              <img src="images/consulting.jpg" alt="IT consulting" />
-              <div class="pad">
-                <h3>IT Consulting</h3>
-                <p>Technology strategy, architecture guidance, and planning.</p>
-              </div>
-            </div>
-
-            <div class="svc-card">
-              <img src="images/cloud-infra.jpg" alt="Cloud services" />
-              <div class="pad">
-                <h3>Cloud Services</h3>
-                <p>Cloud migration, optimization, monitoring, and operations.</p>
-              </div>
-            </div>
-
-            <div class="svc-card">
-              <img src="images/development.jpg" alt="Software development" />
-              <div class="pad">
-                <h3>Software Development</h3>
-                <p>Secure, scalable web and application development.</p>
-              </div>
-            </div>
-
-            <div class="svc-card">
-              <img src="images/support.jpg" alt="Application support" />
-              <div class="pad">
-                <h3>Application Support</h3>
-                <p>Monitoring, incident response, upgrades, and maintenance.</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <!-- CONTACT -->
-      <section id="contact">
-        <section id="footer">
-          <div class="inner">
-            <h2 class="major">Get in Touch</h2>
-            <p>We respond within 1 business day.</p>
-
-            <ul class="actions">
-              <li>
-                <a class="button primary" href="mailto:contact@dt-infotech.com">Email Us</a>
-              </li>
-            </ul>
-
-            <ul class="contact">
-              <li class="icon solid fa-envelope">
-                <a href="mailto:contact@dt-infotech.com">contact@dt-infotech.com</a>
-              </li>
-              <li class="icon solid fa-envelope">
-                <a href="mailto:support@dt-infotech.com">support@dt-infotech.com</a>
-              </li>
-            </ul>
-
-            <ul class="copyright">
-              <li>&copy; 2026 DT-Infotech. All rights reserved.</li>
-            </ul>
-          </div>
-        </section>
-      </section>
-
+  <!-- HERO -->
+  <section id="banner">
+    <div class="inner">
+      <h2>Modern IT & Cloud Solutions</h2>
+      <p>Reliable IT consulting, cloud engineering, and long-term application support.</p>
+      <p>
+        <a href="#contact" class="button primary">Contact Us</a>
+        <a href="#services" class="button">Our Services</a>
+      </p>
     </div>
+  </section>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- SERVICES -->
+  <section id="services" class="wrapper style1">
+    <div class="inner">
+      <h2 class="major">Our Services</h2>
+      <p>Clear communication, reliable execution, and long-term support.</p>
+
+      <div class="svc-grid">
+        <div class="svc-card">
+          <img src="images/consulting.jpg" alt="IT consulting" />
+          <div class="pad">
+            <h3>IT Consulting</h3>
+            <p>Technology strategy and architecture guidance.</p>
+          </div>
+        </div>
+
+        <div class="svc-card">
+          <img src="images/cloud-infra.jpg" alt="Cloud services" />
+          <div class="pad">
+            <h3>Cloud Services</h3>
+            <p>Migration, optimization, and operations.</p>
+          </div>
+        </div>
+
+        <div class="svc-card">
+          <img src="images/development.jpg" alt="Software development" />
+          <div class="pad">
+            <h3>Software Development</h3>
+            <p>Secure, scalable applications.</p>
+          </div>
+        </div>
+
+        <div class="svc-card">
+          <img src="images/support.jpg" alt="Application support" />
+          <div class="pad">
+            <h3>Application Support</h3>
+            <p>Monitoring, upgrades, and maintenance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <section id="footer">
+      <div class="inner">
+        <h2 class="major">Get in Touch</h2>
+        <p>We respond within 3 business day.</p>
+
+        <ul class="actions">
+          <li>
+            <a class="button primary" href="mailto:contact@dt-infotech.com">Email Us</a>
+          </li>
+        </ul>
+
+        <ul class="contact">
+          <li>
+            <a href="mailto:contact@dt-infotech.com">contact@dt-infotech.com</a>
+          </li>
+          <li>
+            <a href="mailto:support@dt-infotech.com">support@dt-infotech.com</a>
+          </li>
+        </ul>
+
+        <ul class="copyright">
+          <li>&copy; 2026 DT-Infotech. All rights reserved.</li>
+        </ul>
+      </div>
+    </section>
+  </section>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
